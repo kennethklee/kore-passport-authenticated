@@ -1,0 +1,26 @@
+{
+  "name": "kore-passport-authenticated",
+  "version": "0.0.1",
+  "description": "Tools for ensuring logged in or logged out",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kennethklee/kore-passport-ensure.git"
+  },
+  "keywords": [
+    "passport",
+    "authenticated"
+  ],
+  "author": "Kenneth Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethklee/kore-passport-ensure/issues"
+  },
+  "homepage": "https://github.com/kennethklee/kore-passport-ensure",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
